@@ -1,0 +1,187 @@
+[
+  {
+    "ContainingType": "DotNetAssignment.API.Controllers.UserController",
+    "Method": "CreatePin",
+    "RelativePath": "api/User/CreatePin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DotNetAssignment.Services.DTOs.UserPinRequestModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DotNetAssignment.API.Controllers.UserController",
+    "Method": "Dashboard",
+    "RelativePath": "api/User/Dashboard",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DotNetAssignment.API.Controllers.UserController",
+    "Method": "EnableBiometricVerification",
+    "RelativePath": "api/User/EnableBiometricVerification",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DotNetAssignment.API.Controllers.UserController",
+    "Method": "GetPrivacyPolicy",
+    "RelativePath": "api/User/GetPrivacyPolicy",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DotNetAssignment.API.Controllers.UserController",
+    "Method": "GetUser",
+    "RelativePath": "api/User/GetUser",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DotNetAssignment.API.Controllers.UserController",
+    "Method": "Index",
+    "RelativePath": "api/User/Index",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DotNetAssignment.API.Controllers.UserController",
+    "Method": "Login",
+    "RelativePath": "api/User/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "icNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DotNetAssignment.API.Controllers.UserController",
+    "Method": "OTPVerification",
+    "RelativePath": "api/User/OTPVerification",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DotNetAssignment.Services.DTOs.UserOTPVerifyModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DotNetAssignment.API.Controllers.UserController",
+    "Method": "PinVerification",
+    "RelativePath": "api/User/PinVerification",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DotNetAssignment.Services.DTOs.UserPinRequestModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DotNetAssignment.API.Controllers.UserController",
+    "Method": "PrivacyPolicyAgreement",
+    "RelativePath": "api/User/PrivacyPolicyAgreement",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DotNetAssignment.API.Controllers.UserController",
+    "Method": "UserRegistration",
+    "RelativePath": "api/User/UserRegistration",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DotNetAssignment.Services.DTOs.UserRegistrationModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DotNetAssignment.API.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[DotNetAssignment.API.WeatherForecast, DotNetAssignment.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
